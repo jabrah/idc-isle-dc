@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fde92635b5d5b9182a6a7daa303c638c",
+    "content-hash": "45f94d4040fa9c0db20f75f7c803ceb7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -6249,6 +6249,28 @@
                 "openseadragon"
             ],
             "time": "2020-11-20T20:45:27+00:00"
+        },
+        {
+            "name": "jabrah/idc-ui-theme",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jabrah/idc-ui-theme.git",
+                "reference": "15e6da25cc8e30de09496ba82118b2251932e005"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jabrah/idc-ui-theme/zipball/15e6da25cc8e30de09496ba82118b2251932e005",
+                "reference": "15e6da25cc8e30de09496ba82118b2251932e005",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "description": "Moo",
+            "support": {
+                "source": "https://github.com/jabrah/idc-ui-theme/tree/develop",
+                "issues": "https://github.com/jabrah/idc-ui-theme/issues"
+            },
+            "time": "2020-11-12T15:15:46+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -15535,7 +15557,8 @@
         "drupal/pdf": 20,
         "islandora-rdm/islandora_fits": 20,
         "islandora/carapace": 20,
-        "islandora/islandora_defaults": 20
+        "islandora/islandora_defaults": 20,
+        "jabrah/idc-ui-theme": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
