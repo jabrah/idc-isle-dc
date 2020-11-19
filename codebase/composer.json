@@ -21,7 +21,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:jabrah/idc-ui-theme.git"
+            "url": "git@github.com:jhu-idc/idc_ui_module.git"
         }
     ],
     "require": {
@@ -47,6 +47,7 @@
         "islandora/carapace": "dev-8.x-3.x",
         "islandora/islandora_defaults": "dev-8.x-1.x",
         "jabrah/idc-ui-theme": "dev-main",
+        "jhu-idc/idc_ui_module": "dev-main",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"
@@ -115,11 +116,6 @@
             "drush/Commands/contrib/{$name}": [
                 "type:drupal-drush"
             ]
-        },
-        "patches": {
-            "simplesamlphp/simplesamlphp": {
-                "SimpleSAMLphp config": "patches/simplesaml_config.patch"
-            }
         }
     }
 }
